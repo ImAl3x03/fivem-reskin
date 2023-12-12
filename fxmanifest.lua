@@ -23,7 +23,9 @@ shared_scripts {
 files {
     'nui/index.html',
     'nui/asset/css/*.css',
-    'nui/asset/js/*:js',
+    'nui/asset/js/*.js',
+    'nui/asset/font/*.otf',
+    'nui/asset/sound/*.mp3',
 }
 
 ui_page 'nui/index.html'

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Pricedown;
+    src: url('../font/pricedown.otf');
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+audio {
+    display: none;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************
+ ****** RESTART ******
+ *********************/
+#restart {
+    display: none;
+
+    width: 100vw;
+    height: 200px;
+
+    font-size: 5em;
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.8) 80%, rgba(0, 0, 0, 0.3) 100%);
+
+    font-family: Pricedown, sans-serif;
+    color: red;
+}
